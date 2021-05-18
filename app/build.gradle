@@ -30,9 +30,8 @@ android {
 
     buildTypes.each {
         it.buildConfigField 'String', 'BASE_URL', "\"https://pixabay.com/api/\"";
-        it.buildConfigField 'String', 'PIXABAY_KEY', "\"5052268-baa1bfc492bc7f8719f57e0fa\""
-        it.buildConfigField 'String', 'UNSPLASH_URL', "\"https://api.unsplash.com/search/photos/?client_id=0Uaq3JmqCM3YLDKlKVUcQEaKiMNavhvbD_uC-7AoJ68\""
-        it.buildConfigField 'String', 'YOUTUBE_URL', "\"https://www.googleapis.com/youtube/v3/playlistItems?key=AIzaSyD3xzd3Ylfvqkn3Z5_6QhwQ5g_5lqGySrU&fields=items&part=snippet&maxResults=60\""
+        it.buildConfigField 'String', 'PIXABAY_KEY', "\"your_key\""
+        it.buildConfigField 'String', 'UNSPLASH_URL', "\"https://api.unsplash.com/search/photos/?client_id=your_id\""
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
